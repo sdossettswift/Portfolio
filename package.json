@@ -1,5 +1,5 @@
 {
-  "name": "tshirts",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,17 +12,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "postcss --use autoprefixer --autoprefixer.browsers \"last 50 versions\" --use precss --use csswring -o style.css style.scss",
-    "watch": "postcss --use autoprefixer --autoprefixer.browsers \"last 50 versions\" --use precss --use csswring -w -o style.css style.scss"
+    "build": "postcss --use autoprefixer --autoprefixer.browsers \"last 50 versions\" --use precss --use postcss-calc --use csswring -o styles.css styles.scss",
+    "watch": "postcss --use autoprefixer --autoprefixer.browsers \"last 50 versions\" --use precss --use postcss-calc --use csswring -w -o styles.css styles.scss"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sdossettswift/tshirts.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sdossettswift/tshirts/issues"
-  },
-  "homepage": "https://github.com/sdossettswift/tshirts#readme"
+  "author": "SDS",
+  "license": "ISC"
 }
